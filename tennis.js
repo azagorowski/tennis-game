@@ -147,12 +147,12 @@ function drawEverything() {
 		canvasContext.fillStyle = 'white';
 	
 		if(player1Score >= WINNING_SCORE) {
-		canvasContext.fillText("Human Player Won !", 340, 200);
+		canvasContext.fillText("Human Player Won !", 290, 200);
 		} else if(player2Score >= WINNING_SCORE) {
-		canvasContext.fillText("Computer Won !", 350, 200);
+		canvasContext.fillText("Computer Won !", 310, 200);
 		}
 
-		canvasContext.fillText("Click to continue", 350, 400);
+		canvasContext.fillText("Click to continue", 310, 400);
 		return;
 	}
 	
@@ -168,10 +168,12 @@ function drawEverything() {
 	colorCircle(ballX, ballY, 12, '#F3F781');
 	
 	//score
-	canvasContext.fillStyle = '#A9A9F5';
+	canvasContext.fillStyle = '#66ff8c';
+	canvasContext.font = "22px Montserrat";
+	
 	
 	canvasContext.fillText("P1 Score: " + player1Score, 100, 100);
-	canvasContext.fillText("P2 Score: " + player2Score, canvas.width-150, 100);
+	canvasContext.fillText("P2 Score: " + player2Score, canvas.width-200, 100);
 }
 
 function colorCircle(centerX, centerY, radius, drawColor) {
