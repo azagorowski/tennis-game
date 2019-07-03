@@ -21,3 +21,23 @@ h1 {
 	font-family: "Bungee", cursive;
 	font-size: 48px;
 }
+
+footer {
+	background-color: #000000;
+	width: 100%;
+	clear: both;
+	margin: 0;
+	max-height: 80px;
+	color: #66ff8c;
+}
+footer p {
+	font-size: 100%;
+	line-height: 100%;
+	padding: 2%;
+	text-align: center;
+	transition: 3s ;
+}
+
+footer:hover p{
+		transform: scale(1.2);
+	}
