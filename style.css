@@ -38,6 +38,20 @@ footer p {
 	transition: 3s ;
 }
 
-footer:hover p{
+footer:hover p {
 		transform: scale(1.2);
-	}
+}
+
+a {
+	text-decoration: none;
+	color: #66ff8c;
+}
+a:hover {
+	text-decoration: none;
+	color: #66ff8c;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #66ff8c;
+}
